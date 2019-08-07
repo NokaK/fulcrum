@@ -228,13 +228,18 @@ body {
     line-height: 1.25;
     color: #fff;
   }
-
   .aboutus-container .aboutus-description {
     width: 100%;
     margin: 0 0 40px;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.32px;
+    display: none;
+  }
+  .wallet-app-description .wallet-app-info {
+    margin: 0 0 30px !important;
+  }
+  #decoration-img {
     display: none;
   }
 
@@ -352,7 +357,7 @@ body {
   }
 
   .wallet-app-banner {
-    margin: 20px 0;
+    margin: 30px 0;
     text-align: center;
   }
 
@@ -714,7 +719,12 @@ body {
     line-height: 1.09;
     color: #000;
   }
-
+  .wallet-app-description .wallet-app-info {
+    margin: 0 0 25px;
+  }
+  #decoration-img {
+    display: none;
+  }
   .aboutus-container .aboutus-description {
     width: 100%;
     margin: 0 0 40px;
@@ -839,7 +849,7 @@ body {
   }
 
   .wallet-app-banner {
-    margin: 20px 0;
+    margin: 50px 0;
     text-align: center;
   }
 
@@ -1333,7 +1343,7 @@ body {
   }
 
   .wallet-app-banner {
-    margin: 30px 40px 30px 0;
+    margin: 50px 40px 50px 0;
     text-align: left;
   }
 
@@ -1831,7 +1841,7 @@ body {
   }
 
   .wallet-app-banner {
-    margin: 50px 120px 50px 0;
+    margin: 80px 120px 80px 0;
     text-align: left;
   }
 
@@ -2332,7 +2342,7 @@ body {
   }
 
   .wallet-app-banner {
-    margin: 50px 120px 50px 0;
+    margin: 80px 120px 80px 0;
     text-align: left;
   }
 
