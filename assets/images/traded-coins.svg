@@ -1,0 +1,16 @@
+<svg id="bitcoin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8a690"/>
+      <stop offset="0.02" stop-color="#e8a690"/>
+      <stop offset="0.171" stop-color="#d6948d"/>
+      <stop offset="0.475" stop-color="#a66684"/>
+      <stop offset="0.9" stop-color="#591c76"/>
+      <stop offset="1" stop-color="#460a72"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_676" data-name="Path 676" d="M97.892,87a10.892,10.892,0,1,0,10.892,10.892A10.9,10.9,0,0,0,97.892,87ZM99.8,103.859h-.945v2.109H96.926v-2.109H92.952v-1.934H94.6V93.86h-1.65V91.926h3.974V89.817h1.934v2.109H99.2a3.465,3.465,0,0,1,2.667,5.678,3.465,3.465,0,0,1-2.058,6.254Z" transform="translate(-81.393 -81.393)" fill="url(#linear-gradient)"/>
+  <path id="Path_677" data-name="Path 677" d="M237.6,196.5a1.533,1.533,0,1,0,0-3.066h-2.66V196.5Z" transform="translate(-219.8 -180.964)" fill="url(#linear-gradient)"/>
+  <path id="Path_678" data-name="Path 678" d="M238.212,271h-3.269v3.066h3.269a1.533,1.533,0,1,0,0-3.066Z" transform="translate(-219.8 -253.533)" fill="url(#linear-gradient)"/>
+  <path id="Path_679" data-name="Path 679" d="M28.167,4.833A16.5,16.5,0,0,0,4.833,28.167,16.5,16.5,0,0,0,28.167,4.833ZM16.5,29.326A12.826,12.826,0,1,1,29.326,16.5,12.841,12.841,0,0,1,16.5,29.326Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+</svg>

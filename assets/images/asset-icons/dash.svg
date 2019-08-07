@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>dash copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Dark-Theme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark---Dashboard-w-Requests" transform="translate(-204.000000, -1442.000000)" fill-rule="nonzero">
+            <g id="Recent-Activity" transform="translate(120.000000, 1172.000000)">
+                <g id="dash-copy">
+                    <g transform="translate(84.000000, 270.000000)">
+                        <circle id="Oval" fill="#1C75BC" cx="18" cy="18" r="18"></circle>
+                        <path d="M29.8928572,14.5928572 L27.6,21.7714286 C27.6,21.7714286 26.1857143,25.35 22.8214286,25.35 C19.4571429,25.35 6.6,25.35 6.6,25.35 L7.75714286,21.7714286 L22.4142857,21.7714286 L22.4571429,21.7714286 L24.7714285,14.5928572 L10.0928571,14.5928572 L11.2285714,11.0142857 C11.2285714,11.0142857 23.8285714,11.0142857 27.3642857,11.0142857 C30.9,11.0142857 29.8928572,14.5928572 29.8928572,14.5928572 Z M7.17857143,16.5214286 L15.8785714,16.5214286 L14.7642857,19.8428571 L6.04285714,19.8428571 L7.17857143,16.5214286 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

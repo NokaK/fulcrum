@@ -1,0 +1,15 @@
+<svg id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.306" height="33.306" viewBox="0 0 33.306 33.306">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8a690"/>
+      <stop offset="0.02" stop-color="#e8a690"/>
+      <stop offset="0.171" stop-color="#d6948d"/>
+      <stop offset="0.475" stop-color="#a66684"/>
+      <stop offset="0.9" stop-color="#591c76"/>
+      <stop offset="1" stop-color="#460a72"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_664" data-name="Group 664">
+    <path id="Path_675" data-name="Path 675" d="M16.653,0A16.653,16.653,0,1,0,33.306,16.653,16.653,16.653,0,0,0,16.653,0Zm7.2,19.82h-7.06c-.024,0-.046-.006-.07-.007s-.046.007-.07.007A1.152,1.152,0,0,1,15.5,18.668V6.911a1.152,1.152,0,1,1,2.3,0V17.516h6.047a1.152,1.152,0,0,1,0,2.3Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

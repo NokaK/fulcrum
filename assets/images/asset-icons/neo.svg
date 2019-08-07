@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_63" data-name="Group 63" transform="translate(1297 2594)">
+    <circle id="Oval" cx="14" cy="14" r="14" transform="translate(-1297 -2594)" fill="#58bf00"/>
+    <g id="图层_2" data-name="图层 2" transform="translate(-1289.536 -2588)">
+      <g id="图层_1" data-name="图层 1">
+        <path id="Path_16" data-name="Path 16" d="M213.607,72.69V82.76l-5.3-2.5V74.593Z" transform="translate(-200.726 -70.044)" fill="#fff"/>
+        <path id="Path_17" data-name="Path 17" d="M0,89.064,5.17,91.5V81.48L0,79.04Z" transform="translate(0 -76.162)" fill="#fff"/>
+        <path id="Path_18" data-name="Path 18" d="M18.085,2.452l.085-.031.047-.016L13.118,0l-.047.016-.135.048-.063.023L5.62,2.692l5.1,2.405,2.154-.774L13,4.279Z" transform="translate(-5.415)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

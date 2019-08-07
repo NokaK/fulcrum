@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_63" data-name="Group 63" transform="translate(1297 2594)">
+    <circle id="Oval" cx="14" cy="14" r="14" transform="translate(-1297 -2594)" fill="#f60"/>
+    <g id="monero" transform="translate(-1290.541 -2587.543)">
+      <path id="Path_16" data-name="Path 16" d="M7.541,0A7.546,7.546,0,0,0,.384,9.923H2.639V3.578l4.9,4.9,4.9-4.9V9.923H14.7A7.546,7.546,0,0,0,7.541,0" fill="#fff"/>
+      <path id="Path_17" data-name="Path 17" d="M23.94,128.889,21.8,126.75v3.992H18.623a7.543,7.543,0,0,0,12.888,0H28.333V126.75l-2.139,2.139-1.127,1.127-1.127-1.127h0Z" transform="translate(-17.526 -119.282)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

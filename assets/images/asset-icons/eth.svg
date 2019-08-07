@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Dark-Theme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark---Dashboard-w-Requests" transform="translate(-204.000000, -1293.000000)" fill-rule="nonzero">
+            <g id="Recent-Activity" transform="translate(120.000000, 1172.000000)">
+                <g id="Group-4">
+                    <g transform="translate(84.000000, 121.000000)">
+                        <g id="Group-14">
+                            <circle id="Oval" fill="#627EEA" cx="18" cy="18" r="18"></circle>
+                            <g id="Group" transform="translate(10.125000, 4.500000)" fill="#FFFFFF">
+                                <polygon id="Shape" fill-opacity="0.602" points="8.43525 0 8.43525 9.97875 16.869375 13.7475"></polygon>
+                                <polygon id="Shape" points="8.43525 0 0 13.7475 8.43525 9.97875"></polygon>
+                                <polygon id="Shape" fill-opacity="0.602" points="8.43525 20.214 8.43525 26.994375 16.875 15.318"></polygon>
+                                <polygon id="Shape" points="8.43525 26.994375 8.43525 20.212875 0 15.318"></polygon>
+                                <polygon id="Shape" fill-opacity="0.2" points="8.43525 18.644625 16.869375 13.7475 8.43525 9.981"></polygon>
+                                <polygon id="Shape" fill-opacity="0.602" points="0 13.7475 8.43525 18.644625 8.43525 9.981"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.469" height="33.487" viewBox="0 0 23.469 33.487">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8a690"/>
+      <stop offset="0.02" stop-color="#e8a690"/>
+      <stop offset="0.171" stop-color="#d6948d"/>
+      <stop offset="0.475" stop-color="#a66684"/>
+      <stop offset="0.9" stop-color="#591c76"/>
+      <stop offset="1" stop-color="#460a72"/>
+    </linearGradient>
+  </defs>
+  <g id="drop-silhouette" transform="translate(-57.34 0)">
+    <path id="Path_680" data-name="Path 680" d="M76.2,9.338A82.892,82.892,0,0,0,69.82.354a.961.961,0,0,0-1.49,0A83,83,0,0,0,61.951,9.34c-3.06,5.051-4.611,9.227-4.611,12.412a11.735,11.735,0,1,0,23.469,0C80.81,18.566,79.258,14.389,76.2,9.338ZM70.685,29.165a8.539,8.539,0,0,1-2.114.264,7.693,7.693,0,0,1-7.951-7.386,9.441,9.441,0,0,1,.771-3.414.5.5,0,0,1,.575-.288.464.464,0,0,1,.38.494,7.431,7.431,0,0,0-.045.8,8.932,8.932,0,0,0,8.307,8.633.477.477,0,0,1,.438.42A.463.463,0,0,1,70.685,29.165Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

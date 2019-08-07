@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_63" data-name="Group 63" transform="translate(1297 2594)">
+    <circle id="Oval" cx="14" cy="14" r="14" transform="translate(-1297 -2594)" fill="#071a40"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(-1290.64 -2586.616)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 -0.011)">
+        <path id="Path_16" data-name="Path 16" d="M13.433,1.721l-1.883.959L2.456,7.312a5.417,5.417,0,0,1,8.013-5.43l1.078-.549.161-.082A6.617,6.617,0,0,0,1.2,6.607q0,.253.019.5A1.2,1.2,0,0,1,.568,8.274L0,8.564V9.916l1.673-.853h0l.542-.277.534-.272h0l9.587-4.885,1.077-.549L15.64,1.946V.595Z" transform="translate(0 0.011)" fill="#fff"/>
+        <path id="Path_17" data-name="Path 17" d="M15.64,50,3.294,56.286l-1.077.55L0,57.966v1.351l2.2-1.122,1.883-.959,9.1-4.639a5.522,5.522,0,0,1,.046.712A5.417,5.417,0,0,1,5.167,58.03l-.066.035-1.169.6a6.617,6.617,0,0,0,10.5-5.353c0-.17-.007-.34-.019-.508a1.2,1.2,0,0,1,.653-1.163l.569-.29Z" transform="translate(0 -46.691)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

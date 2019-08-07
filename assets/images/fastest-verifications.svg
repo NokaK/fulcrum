@@ -1,0 +1,35 @@
+<svg id="Group_599" data-name="Group 599" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.639" height="33.268" viewBox="0 0 21.639 33.268">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_237" data-name="Path 237" d="M741.12,215.5a10.832,10.832,0,0,0-10.82,10.82v5.814h21.639V226.32a10.832,10.832,0,0,0-10.82-10.82Z" transform="translate(-730.3 -215.5)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8a690"/>
+      <stop offset="0.123" stop-color="#e8a690"/>
+      <stop offset="0.212" stop-color="#d5948c"/>
+      <stop offset="0.593" stop-color="#884a7e"/>
+      <stop offset="0.865" stop-color="#581c75"/>
+      <stop offset="1" stop-color="#460a72"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path_239" data-name="Path 239" d="M736.9,190.083a7.483,7.483,0,1,0,7.483-7.483,7.466,7.466,0,0,0-7.483,7.483" transform="translate(-736.9 -182.6)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8a690"/>
+      <stop offset="0.102" stop-color="#d5948c"/>
+      <stop offset="0.536" stop-color="#884a7e"/>
+      <stop offset="0.846" stop-color="#581c75"/>
+      <stop offset="1" stop-color="#460a72"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_406" data-name="Group 406" transform="translate(0 16.634)">
+    <g id="Group_405" data-name="Group 405" clip-path="url(#clip-path)">
+      <path id="Path_236" data-name="Path 236" d="M727.759,205.2l24.319,6.269-5.41,20.83L722.4,225.98Z" transform="translate(-726.394 -210.408)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_408" data-name="Group 408" transform="translate(3.337)">
+    <g id="Group_407" data-name="Group 407" clip-path="url(#clip-path-2)">
+      <path id="Path_238" data-name="Path 238" d="M734.3,175.5l17.645,4.55L747.4,197.7l-17.7-4.55Z" transform="translate(-733.34 -179.09)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
