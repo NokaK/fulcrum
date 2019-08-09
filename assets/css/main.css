@@ -3366,7 +3366,7 @@ nav a:hover {
   line-height: 2;
   letter-spacing: 1.08px;
   color: #000000;
-  margin: 0 0 58px;
+  margin: 0 0 30px;
 }
 
 .wallet-app-description .ios-logo {
@@ -3710,8 +3710,8 @@ nav a:hover {
 }
 .indicator {
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
+  height: 26px;
+  width: 26px;
   border: 2px solid #e8a690;
   position: relative;
   cursor: pointer;
@@ -3725,10 +3725,9 @@ nav a:hover {
   width: 14px;
   display: block;
   position: absolute;
-  top: 51%;
-  left: 52%;
+  top: 4px;
+  left: 4px;
   opacity: 0;
-  transform: translate(-53%, -49%);
 }
 .indicator.selected span {
   opacity: 1;
