@@ -3467,6 +3467,7 @@ nav a:hover {
   right: 0;
   top: -150px;
   z-index: 0;
+  display: block;
 }
 
 .secure-highlights .content-div {
