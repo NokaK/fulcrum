@@ -763,12 +763,7 @@ body {
     padding: 0 20px;
   }
   .responsive-social {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .responsive-social a {
-    margin-right: 30px;
+    display: none;
   }
 
   .aboutus-container h1 {
