@@ -1,0 +1,1146 @@
+@font-face {
+  font-family: "HurmeGeometricSans3-Bold";
+  src: url("../fonts/HurmeGeometricSans3-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/HurmeGeometricSans3-Bold.woff") format("woff"),
+    url("../fonts/HurmeGeometricSans3-Bold.ttf") format("truetype"),
+    url("../fonts/HurmeGeometricSans3-Bold.svg#HurmeGeometricSans3-Bold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometricSans3-Regular";
+  src: url("../fonts/HurmeGeometricSans3-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/HurmeGeometricSans3-Regular.woff") format("woff"),
+    url("../fonts/HurmeGeometricSans3-Regular.ttf") format("truetype"),
+    url("../fonts/HurmeGeometricSans3-Regular.svg#HurmeGeometricSans3-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometricSans3-SemiBold";
+  src: url("../fonts/HurmeGeometricSans3-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/HurmeGeometricSans3-SemiBold.woff") format("woff"),
+    url("../fonts/HurmeGeometricSans3-SemiBold.ttf") format("truetype"),
+    url("../fonts/HurmeGeometricSans3-SemiBold.svg#HurmeGeometricSans3-SemiBold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "HurmeGeometricSans3-Regular";
+}
+
+.light .container .page-header__container-1 {
+  background-color: #5000a6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+}
+
+.light .container .page-header-nav__item {
+  background-color: #5000a6;
+  border-right: solid 2px rgba(247, 249, 250, 0.1);
+  border-color: rgba(247, 249, 250, 0.1);
+  color: #fff;
+}
+
+.light .container .single-fluid-header-fixed-content-layout__accent-bar {
+  background-image: none !important;
+}
+
+body.light:before {
+  background: #f7f9fa !important;
+}
+
+.light
+  .container
+  .dual-header-dashboard-layout__top-row__component-container-left {
+  background: #fff;
+  -webkit-box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+  box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+}
+
+.light .container .market-overview__header {
+  color: #3d4754;
+  background-color: #fff;
+}
+
+.light .container .retail-buy-sell-layout__make-transaction-container {
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+  box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+}
+
+.light .container .retail-buy-sell-layout__make-transaction-col-1 {
+  border-right: 2px solid #eceef3;
+}
+
+.light .container .page-header__header-item {
+  border-right: 1px solid #f7f9fa;
+  border-color: #f7f9fa;
+}
+
+.light .container .retail-buy-sell__tab--buy-selected {
+  color: #394050;
+}
+
+.light .container .retail-make-transaction__title {
+  color: #3d4754;
+  padding: 33px 61px 23px;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .retail-buy-sell__container .ap-select__select {
+  line-height: 44px;
+  height: 44px;
+  border-radius: 4px;
+  border: solid 1px #dadee4;
+  background-color: #f7f9fa;
+  color: #8b9bb3;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .retail-buy-sell__amount-container {
+  border: 1px solid #dadee4;
+  background-color: #f7f9fa;
+  border-radius: 4px;
+  margin: 0 61px;
+}
+
+.light .container .ap-radio__check {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #eceef3 !important;
+  background-color: #fff;
+}
+
+.light
+  .container
+  .ap-radio
+  input[type="radio"]:checked
+  ~ label
+  > .ap-radio__check {
+  background-color: #fff !important;
+  border: 3px solid #e8a690 !important;
+}
+
+.light .container .ap-radio__checked {
+  background-color: #e8a690;
+}
+
+.light .container .ap-radio__checked {
+  width: 12px;
+  height: 12px;
+  background: #e8a690;
+}
+
+.light .container .retail-buy-sell__container .ap-radio__check {
+  background: #fff;
+}
+
+.light .container .retail-buy-sell__amount-row--active,
+.light .container .retail-buy-sell__input--active {
+  color: #3d4754;
+}
+
+.light .container .retail-buy-sell__btn {
+  height: 50px;
+  border-radius: 25px;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(right, #dd9b8f, #5000a6);
+  background-image: linear-gradient(to left, #dd9b8f, #5000a6);
+  color: #fff;
+  border: none;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .retail-buy-sell__container {
+  background: transparent;
+}
+
+.light .container .retail-make-transaction {
+  padding: 0;
+}
+
+.light .container .retail-make-transaction__content {
+  border: none;
+}
+
+.light .container .retail-buy-sell__tab-wrapper {
+  border-bottom: 1px solid #eceef3;
+  padding: 0 61px;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .retail-buy-sell__crypto-container {
+  margin: 23px 61px 41px;
+}
+
+.light .container .retail-buy-sell__amount-header {
+  margin: 0 61px 12px;
+}
+
+.light .container .retail-buy-sell__vertical-divider {
+  background: transparent;
+}
+
+.light .container .retail-buy-sell__tab {
+  border-color: transparent;
+}
+
+.light .container .retail-buy-sell__tab--buy-selected {
+  border-color: #5000a6;
+}
+.light .ap-datepicker__input:hover,
+.light .ap-input__input:hover,
+.light .ap-select__select:hover,
+.light .react-phone-number-input__input.ap-phone-input__input:hover {
+  background: #fff !important;
+}
+
+.light .retail-buy-sell__input--disable {
+  background: #fff !important;
+}
+
+.light .container .retail-buy-sell__amount-row {
+  border-color: #dadee4;
+}
+
+.light .container .retail-buy-sell__input--active,
+.light .ap-input__input {
+  background: #fff !important;
+}
+
+.light .container .retail-buy-sell__amount-row div:nth-of-type(2) {
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .retail-buy-sell__arrow {
+  color: #3d4754;
+}
+
+.light .container .retail-buy-sell__confirm-button-container {
+  padding: 32px 61px 70px;
+}
+
+.light .container .retail-order-overview {
+  padding: 41px 0 26px 26px;
+}
+
+.light .container .retail-order-overview__title {
+  color: #3d4754;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .retail-order-overview__lwt-container {
+  border-color: #eceef3;
+}
+
+.light .container .retail-order-overview__lwt-label {
+  width: 30%;
+}
+
+.light .container .retail-order-overview__lwt-text {
+  max-width: 70%;
+  color: #3d4754;
+}
+
+.light .container .retail-buy-sell-layout__right-panel-divider {
+  background: #eceef3;
+  height: 3px;
+  border: none;
+}
+
+.light .container .retail-balances__title {
+  color: #3d4754;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .retail-balances__lwt-container {
+  border-color: #eceef3;
+  padding-top: 17px;
+  padding-bottom: 11px;
+}
+
+.light .container .retail-balances__lwt-text {
+  color: #3d4754;
+  margin-top: 6px;
+}
+
+.light .container .chart-overview__instrument-container {
+  background: #fff;
+}
+
+.light .container .chart-overview__instrument-container-text {
+  color: #3d4754;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .chart-overview__instrument-table {
+  border-top: 4px solid #eceef3;
+  background-color: #fff;
+  padding-left: 25px;
+}
+
+.light .container .chart-overview-instrument__row {
+  border-bottom: 1px solid #eceef3;
+  border-right: none;
+  padding-left: 0;
+}
+
+.light .container .chart-overview-instrument__row:last-child {
+  border-right: none;
+}
+
+.light .container .retail-buy-sell-layout__col--with-padding {
+  -webkit-box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+  box-shadow: 0 5px 60px 0 rgba(95, 105, 127, 0.1);
+}
+
+.light .container .page-footer {
+  background-color: #f7f9fa;
+  border-top: 1px solid #dadee4;
+}
+
+.light .container .page-footer__footer-left-content {
+  color: #8b9bb3;
+}
+
+.page-footer__text a {
+  color: #5000a6;
+}
+
+.light .container .user-summary__container {
+  border-left: 1px solid #fff;
+}
+
+.light .container .retail-buy-sell__tab--sell-selected {
+  border-color: #5000a6 !important;
+  color: #394050;
+}
+
+.light .container .retail-buy-sell__tab:hover {
+  color: #394050;
+  border-bottom: 2px solid #5000a6;
+}
+
+.light .container .dual-fluid-header-fixed-content-layout__accent-bar {
+  background: transparent;
+}
+
+.light .container .sub-nav-row__item,
+.light .container .sub-nav-row__item:focus {
+  width: 172px;
+  height: 48px;
+  text-align: center;
+  letter-spacing: 0.64px;
+  font-family: "HurmeGeometricSans3-SemiBold";
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.64px;
+  color: #3d4754 !important;
+  border: none;
+  border-radius: 50px;
+}
+
+.light .container .sub-nav-row__item--selected,
+.light .container .sub-nav-row__item--selected:focus,
+.light .container .sub-nav-row__item.sub-nav-row__item--selected:hover {
+  border-radius: 24px;
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background: -o-linear-gradient(right, #e8a690, #5000a6) !important;
+  background: linear-gradient(to left, #e8a690, #5000a6) !important;
+  color: #fff !important;
+  border: none;
+}
+
+.light .container .transfer-request-item__btn {
+  font-size: 14px;
+}
+
+.light .ap-button__btn {
+  border-radius: 25px;
+  -webkit-box-shadow: 0 13px 19px 0 rgba(80, 0, 166, 0.33);
+  box-shadow: 0 13px 19px 0 rgba(80, 0, 166, 0.33);
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(right, #dd9b8f, #5000a6);
+  background-image: linear-gradient(to left, #dd9b8f, #5000a6);
+  color: #fff;
+  border: none;
+  font-family: "HurmeGeometricSans3-Bold";
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  z-index: 2;
+}
+
+.light .ap-button__btn--additive:hover,
+.light .ap-button__btn--additive:focus {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  );
+  background: -o-linear-gradient(right, #dd9b8f, #5000a6);
+  background: linear-gradient(to left, #dd9b8f, #5000a6);
+  border: none;
+}
+
+.light .ap-button__btn:hover,
+.light .ap-button__btn:focus {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  ) !important;
+  background: -o-linear-gradient(right, #dd9b8f, #5000a6) !important;
+  background: linear-gradient(to left, #dd9b8f, #5000a6) !important;
+  border: none !important;
+  color: #fff;
+}
+
+.light .container .pagination__content .ap-button__btn--subtractive {
+  background: rgba(234, 234, 234);
+  color: #3d4754 !important;
+}
+
+.light .container .transfer-request-list .pagination__page--active,
+.light .container .transfer-request-list .pagination__page--active:hover {
+  background-color: #92499c !important;
+  color: #fff !important;
+  border-color: #92499c !important;
+}
+
+.light .container .transfer-request-list .pagination__page {
+  border-radius: 4px;
+  color: #8b9bb3;
+  border: 1px solid var(234, 234, 234);
+  font-family: "HurmeGeometricSans3-Bold";
+  margin: 0 3px;
+}
+
+.light .container .transfer-request-list .pagination__pages {
+  background: none;
+  border: none;
+}
+
+.light .container .transfer-request-list .pagination__text {
+  color: #3d4754;
+}
+
+.light .container .pagination__text--disabled,
+.light .container .pagination__text--disabled:hover {
+  color: rgb(135, 159, 259, 0.1) !important;
+}
+
+.light .container .transfer-request-list {
+  border-radius: 10px;
+  padding: 0;
+}
+
+.light .container .transfer-request-list .pagination__container {
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 3.7rem;
+}
+
+.light .container .dual-header-dashboard-layout__notification-row {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.light .container .market-overview__header:after,
+.light .container .product-balances__header:after {
+  background: #5000a6;
+}
+
+.light .container .activity__header-bar,
+.light .container .transfers__header-bar {
+  border-bottom-color: #5000a6;
+}
+
+.light .container .activity__action .ap-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid rgba(234, 234, 234, 0.75);
+  border-radius: 50%;
+}
+
+.light .container .transfer-request-item__type-icon {
+  border: 1px solid rgba(234, 234, 234, 0.75);
+  border-radius: 50%;
+  padding: 9px 7px;
+}
+
+.light
+  .container
+  .btn-group.btn-group-toggle.ap-segmented-button.order-entry__rt-wrapper {
+  border: solid 1px rgba(234, 234, 234, 0.75);
+  border-radius: 16px;
+}
+
+.light .container .retail-profile-and-settings-layout__page-header:before,
+.light .container .kyc-settings__header:before,
+.light .container .retail-api-keys-form:before,
+.light .container .activity-reporting:before,
+.light .container .affiliate__main-header:before {
+  display: none;
+}
+
+.light .container .retail-profile-and-settings-layout__page-header h1,
+.light .container .kyc-settings__header-text,
+.light .container .retail-api-keys-form__header-text,
+.light .container .activity-reporting__header-text,
+.light .container .affiliate__header {
+  font-size: 24px;
+  color: #3d4754;
+}
+
+.light .container .retail-profile-and-settings-layout__page-header h2,
+.light .container .kyc-settings__description,
+.light .container .retail-api-keys-form__text,
+.light .container .activity-reporting__text,
+.light .container .affiliate__description {
+  font-size: 16px;
+  color: #3d4754;
+}
+
+.light .container .retail-profile-and-settings-widget__header,
+.light .container .download-report__header,
+.light .container .schedule-report-list__header,
+.light .container .affiliate__container header,
+.light .container .affiliate__container header h1,
+.light .container .retail-api-key-list__header,
+.light .retail-api-keys-modal-delete__header,
+.light .retail-api-keys-modal__header {
+  border-color: #5000a6;
+}
+
+.light .region-form__btn,
+.light .theme-form__btn,
+.light .reset-password-form__btn,
+.light .affiliate-modal__btn,
+.light .theme-confirm__btn {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(right, #e8a690, #5000a6);
+  background-image: linear-gradient(to left, #e8a690, #5000a6);
+  border: none;
+  border-radius: 24px;
+  font-family: "HurmeGeometricSans3-Bold";
+  font-size: 14px;
+  color: #fff;
+}
+
+.light .container .retail-api-key-list__check,
+.retail-api-key-list__text-item {
+  color: #3d4754;
+}
+
+.light .container .retail-api-keys-form__create-new {
+  border-color: rgba(234, 234, 234);
+}
+
+.light .container .retail-api-keys-form__create-new-header {
+  color: #3d4754;
+  border-color: rgba(234, 234, 234);
+}
+/* 
+.light .container .retail-api-keys-form__btn,
+.light .container  .retail-api-keys-form__btn:active {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  color: #5000a6;
+} */
+
+.light .container .retail-api-keys-form__documentation {
+  border-color: rgba(234, 234, 234);
+}
+
+.light .container .retail-api-keys-form__documentation a {
+  color: #3d4754;
+  letter-spacing: 0.12px;
+  font-size: 12px;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .page-header__header-item.page-header__header-item--logo {
+  background: url(../images/logo-light.png) no-repeat center center;
+  border: none;
+}
+
+.light .ap-logo {
+  opacity: 0;
+}
+
+.light .signup-form__header,
+.light .forgot-password-form__header,
+.light .login-form__header {
+  border-color: #5000a6;
+}
+
+.light a {
+  color: #5000a6;
+}
+
+.light .container .page-header-nav__item--selected svg {
+  opacity: 0;
+}
+
+.light
+  .container
+  a.page-header-nav__item--selected
+  span.page-header-nav__icon.page-header-nav__icon--dashboard {
+  background: url(../images/dashboard.png) no-repeat center center / cover;
+}
+
+.light .container span.page-header-nav__icon.page-header-nav__icon--dashboard {
+  width: 20px;
+  height: 16px;
+}
+
+.light
+  .container
+  a.page-header-nav__item--selected
+  span.page-header-nav__icon.page-header-nav__icon--exchange {
+  background: url(../images/exchange.png) no-repeat center center / cover;
+}
+
+.light .container span.page-header-nav__icon.page-header-nav__icon--exchange {
+  width: 16px;
+  height: 14px;
+}
+
+.light
+  .container
+  a.page-header-nav__item--selected
+  span.page-header-nav__icon.page-header-nav__icon--buy-sell {
+  background: url(../images/buy-sell.png) no-repeat center center / cover;
+}
+
+.light .container span.page-header-nav__icon.page-header-nav__icon--buy-sell {
+  width: 20px;
+  height: 20px;
+}
+
+.light
+  .container
+  a.page-header-nav__item--selected
+  span.page-header-nav__icon.page-header-nav__icon--wallet {
+  background: url(../images/wallet.png) no-repeat center center / cover;
+}
+
+.light .container span.page-header-nav__icon.page-header-nav__icon--wallet {
+  width: 20px;
+  height: 18px;
+}
+
+.light
+  .container
+  a.page-header-nav__item--selected
+  span.page-header-nav__icon.page-header-nav__icon--settings {
+  background: url(../images/settings.png) no-repeat center center / cover;
+}
+
+.light .container span.page-header-nav__icon.page-header-nav__icon--settings {
+  width: 20px;
+  height: 20px;
+}
+
+.light .container .ap-segmented-button__label--checked-additive,
+.light
+  .container
+  .ap-segmented-button__label.ap-segmented-button__label--checked-additive:hover,
+.light .container .ap-segmented-button__label--checked-subtractive,
+.light .container .ap-segmented-button__label--checked-subtractive:hover {
+  background-image: -o-linear-gradient(188deg, #e8a690, #5000a6) !important;
+  background-image: linear-gradient(262deg, #e8a690, #5000a6) !important;
+  border-radius: 15px !important;
+  color: #fff !important;
+}
+
+.light .container .ap-segmented-button__label {
+  font-family: "HurmeGeometricSans3-Bold";
+  color: #95a2bf;
+}
+
+.light .container .ap-segmented-button__label {
+  color: #8b9bb3;
+  border-radius: 50px;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .ap-tab__menu-item--active:before,
+.light .container .ap-tab__menu-item--active:hover:before,
+.light .container .ap-tab__menu-item:hover:before {
+  border-bottom: 2px solid #5000a6;
+}
+
+.light .container .ap-radio-tab__label--checked-additive,
+.light .container .ap-radio-tab__label--checked-additive:hover,
+.light .container .ap-radio-tab__label--checked-subtractive,
+.light .container .ap-radio-tab__label--checked-subtractive:hover,
+.light .container .ap-radio-tab__label--subtractive:hover,
+.light .container .ap-radio-tab__label--additive:hover {
+  border-color: #5000a6;
+}
+
+.light .container .ap-datepicker__input:hover,
+.ap-input__input:hover,
+.light .container .ap-select__select:hover,
+.light .container .react-phone-number-input__input.ap-phone-input__input:hover,
+.light .slide-pane__content .ap-datepicker__input:focus,
+.light .slide-pane__content .ap-input__input:focus,
+.light .slide-pane__content .ap-select__select:focus,
+.light
+  .slide-pane__content
+  .react-phone-number-input__input.ap-phone-input__input:focus {
+  border-color: #5000a6;
+}
+
+.light .container .transfers__sb-container {
+  border-radius: 50px;
+}
+
+.light .container .ap-datepicker__input,
+.light .container .ap-select__select,
+.light .container .react-phone-number-input__input.ap-phone-input__input {
+  border-radius: 30px;
+}
+
+.light .slide-pane__content .send-form__btn,
+.light .slide-pane__content .receive-form__btn,
+.light .slide-pane__content .manual-deposit__btn,
+.light .slide-pane__content .retail-withdraw-form__btn {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(right, #dd9b8f, #5000a6);
+  background-image: linear-gradient(to left, #dd9b8f, #5000a6);
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.light .slide-pane__content .send-form__source,
+.light .slide-pane__content .receive__source {
+  border-radius: 50px;
+}
+
+.light .slide-pane__content .send-form__source-item-with-border,
+.light .slide-pane__content .receive__source-item-with-border {
+  border: none;
+}
+
+.light .slide-pane__content .send-form__source-item--selected,
+.light .slide-pane__content .send-form__source-item:hover,
+.light .slide-pane__content .receive__source-item--active,
+.light .slide-pane__content .receive__source-item:hover {
+  background: #92499c !important;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.light .slide-pane__content .send-form__source-item {
+  background: transparent;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.light .slide-pane__content .receive__source-item {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.light .slide-pane__content .send-receive-tabs__tab--selected {
+  border-bottom: 2px solid #92499c;
+}
+
+.light .container .chart-overview-instrument__value {
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.light .container .chart-overview-instrument__title {
+  color: #485563;
+  font-size: 12px;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .instrument-selector__symbol {
+  font-family: "HurmeGeometricSans3-Bold";
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.23px;
+}
+
+.light .container .instrument-table .instrument-table__value {
+  font-family: "HurmeGeometricSans3-Bold";
+  line-height: 1.19;
+  letter-spacing: 0.23px;
+}
+
+.light .container .tv-chart__header,
+.light .container .flex-table__title,
+.light .container .ap-tab__menu-item--active,
+.light .container .ap-tab__menu-item--active:hover {
+  font-family: "HurmeGeometricSans3-Bold";
+  font-size: 12px;
+  letter-spacing: 0.36px;
+}
+
+.light .container .ap-inline-btn__text {
+  font-family: "HurmeGeometricSans3-SemiBold";
+  font-size: 13px;
+  letter-spacing: 0.62px;
+  text-align: center;
+}
+
+.light .container .instrument-positions-summary__product-available,
+.light .container .instrument-positions-summary__product-hold,
+.light .container .instrument-positions-summary__product-pending-deposits,
+.light .container .instrument-positions-summary__product-symbol,
+.light .container .instrument-positions-summary__product-total-balance {
+  font-size: 12px !important;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .order-history-table__column {
+  font-size: 13px;
+}
+
+.light .container .wallet-details-back-button__item {
+  font-family: "HurmeGeometricSans3-Bold";
+  font-size: 13px;
+  letter-spacing: 0.47px;
+}
+
+.light .container .wallet-card__activity-link {
+  font-size: 15px;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .wallet-card-grid__header,
+.light .container .component-row-single__header {
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .retail-profile-and-settings-widget__header-text,
+.light .container .retail-profile-and-settings-widget__header {
+  font-size: 20px;
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .retail-enable-two-factor-auth .ap-switch__text {
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .theme-settings__btn,
+.light .container .region-settings__btn {
+  font-size: 14px;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .kyc-level__sub-title {
+  font-size: 14px;
+  font-family: "HurmeGeometricSans3-Bold";
+}
+
+.light .container .kyc-level__item-description,
+.light .container .kyc-level__list-item {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.light .container .flex-table__header-cell--absolute {
+  font-size: 12px;
+}
+
+.light .container .orderbook__table-price,
+.light .container .orderbook__table-qty {
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .recent-trades__table-price,
+.light .container .recent-trades__table-qty {
+  font-family: "HurmeGeometricSans3-SemiBold";
+}
+
+.light .container .ap-datepicker__input:focus,
+.light .container .ap-input__input:focus,
+.light .container .ap-select__select:focus,
+.light .container .react-phone-number-input__input.ap-phone-input__input:focus,
+.light .container .ap-datepicker__input:focus,
+.light .container .ap-input__input:focus,
+.light .container .ap-select__select:focus,
+.light .container .react-phone-number-input__input.ap-phone-input__input:focus {
+  background: transparent;
+  border-color: #5000a6;
+}
+
+.light .page-header-user-summary__user-info-container {
+  color: #fff;
+}
+
+.light .login-form__container .ap-button__btn--additive:hover {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#dd9b8f),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(right, #dd9b8f, #5000a6);
+  background-image: linear-gradient(to left, #dd9b8f, #5000a6);
+}
+
+.light .user-summary__popover-menu-trigger:focus,
+.light .user-summary__popover-menu-trigger:hover {
+  background: rgb(106, 7, 212);
+}
+
+.light .nav-menu-vertical__item.active,
+.nav-menu-vertical__item.active:hover {
+  border-left-color: #5000a6;
+}
+
+.light .nav-menu-vertical__item {
+  color: #8b9bb3;
+}
+
+.light .ap-button__btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(left, #e8a690, #5000a6);
+  background-image: linear-gradient(to right, #e8a690, #5000a6);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.light .ap-button__btn:hover:before {
+  opacity: 1;
+}
+
+.light .slide-pane__content .retail-withdraw-form__btn:before,
+.light .slide-pane__content .ap-button__btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(left, #e8a690, #5000a6);
+  background-image: linear-gradient(to right, #e8a690, #5000a6);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.light .slide-pane__content .retail-withdraw-form__btn:hover:before,
+.light .slide-pane__content .ap-button__btn:hover:before {
+  opacity: 1;
+}
+
+.light .region-form__btn:before,
+.light .theme-form__btn:before,
+.light .reset-password-form__btn:before,
+.light .affiliate-modal__btn:before,
+.light .theme-confirm__btn:before,
+.light .retail-api-keys-modal-delete__btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: -o-linear-gradient(left, #e8a690, #5000a6);
+  background-image: linear-gradient(to right, #e8a690, #5000a6);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.light .region-form__btn:hover:before,
+.light .theme-form__btn:hover:before,
+.light .reset-password-form__btn:hover:before,
+.light .affiliate-modal__btn:hover:before,
+.light .theme-confirm__btn:hover:before,
+.light .retail-api-keys-modal-delete__btn:hover:before {
+  opacity: 1;
+}
+
+.light .container .pagination__content .ap-button__btn--subtractive:hover,
+.light .container .sub-nav-row__item:hover,
+.light .container .ap-segmented-button__label:hover {
+  background: #353d41 !important;
+  color: #fff !important;
+}
+
+.light
+  .container
+  .pagination__content
+  .ap-button__btn--subtractive:hover:before {
+  display: none;
+}
+
+.light
+  .instrument-selector-popover__popover
+  .instrument-selector-popup__body
+  .instrument-selector-popup__row--selected:before {
+  border-left-color: #5000a6;
+}
+
+.light input:hover,
+.light input:focus,
+.light select:hover,
+.light select:focus,
+.light textarea:hover,
+.light textarea:focus {
+  border-color: #5000a6 !important;
+  background: transparent !important;
+}
+
+.light .wallet-details-back-button__item {
+  color: #5000a6;
+}
+
+.light .retail-api-keys-form__btn:hover,
+.light .retail-api-keys-form__btn:focus {
+  color: #fff !important;
+}
+
+.light .ap-modal__header {
+  font-family: "HurmeGeometricSans3-SemiBold";
+  font-size: 18px;
+}
+
+.light .download-report__action-btn__btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.light .retail-trade-report__content .activity-reporting__actions-holder {
+  border-color: rgba(234, 234, 234);
+}
+
+.light .retail-trade-report__content .activity-reporting__create-new-header {
+  border-color: rgba(234, 234, 234);
+  color: #3d4754;
+}
+
+.light .retail-trade-report__content .activity-reporting__btn:hover {
+  color: #fff;
+}
+
+.light .nav-menu-vertical__item.active,
+.light .nav-menu-vertical__item.active:hover {
+  border-color: transparent;
+}
+
+.light .create-api-key__checkbox input[type="checkbox"]:checked ~ label:after,
+.light .create-api-key__checkbox label:hover:after {
+  border: 1px solid #5000a6;
+}
+
+.light .create-api-key__icon--checkbox {
+  color: #5000a6;
+}
+
+.light .retail-fiat-tabs__tab--selected {
+  border-color: #5000a6;
+}
+
+.light .wallet-row-list {
+  max-height: none;
+}
+
+.light .container .ap-segmented-button__label {
+  border-radius: 50px !important;
+}

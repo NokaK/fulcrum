@@ -639,11 +639,26 @@ body {
 
   #footer-top {
     display: block;
-    padding: 10px 0 30px;
   }
-
+  .responsive-footer-icon {
+    padding-top: 30px;
+  }
   #footer-container {
     padding: 40px 0 10px;
+  }
+  #subscribe-field button {
+    background: none !important;
+    background-color: #e8a690 !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    line-height: 48px !important ;
+    font-size: 15px !important;
+  }
+  #subscribe-field input {
+    margin-right: 0 !important;
+  }
+  #footer-pattern {
+    display: none;
   }
 
   #footer-top-l {
@@ -664,12 +679,26 @@ body {
   }
 
   .footer-menu-links {
+    display: none;
+    margin-right: 50px;
+  }
+  .responsive-menu-links {
+    text-decoration: none;
+    color: #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-right: 50px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
-
+  .responsive-menu-links img {
+    margin-right: 15px;
+  }
   #footer-logo {
     margin: 0 0 35px 0;
   }
@@ -704,12 +733,42 @@ body {
     display: block;
     padding: 0;
   }
+  .footer-responsive-icon {
+    display: flex !important;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .desktop-social {
+    display: none;
+  }
+  .responsive-social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .responsive-social a {
+    margin-right: 30px;
+  }
+  #subscribe-field input {
+    width: 195px !important;
+  }
+  #footer-subscribe {
+    width: inherit !important ;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .content-div {
     max-width: 740px;
     padding: 0 20px;
+  }
+  .responsive-social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .responsive-social a {
+    margin-right: 30px;
   }
 
   .aboutus-container h1 {
@@ -1677,7 +1736,7 @@ body {
 
   #footer-quick-links {
     width: 50%;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 40px;
     border-top: none;
     border-left: 1px solid #2e2e2e;
     margin-top: 0;
@@ -2689,6 +2748,12 @@ body {
     width: 100%;
     margin-bottom: 0;
   }
+  .desktop-social {
+    display: block;
+  }
+  .responsive-social {
+    display: none;
+  }
 
   #footer-middle {
     display: -webkit-box;
@@ -2942,7 +3007,15 @@ button:focus {
 .h-sign-up {
   padding: 15px 41px;
   border-radius: 31px;
-  background-color: #e8a690;
+  background-image: -o-linear-gradient(left, #e8a690, #e8a690);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#e8a690)
+  );
+  background-image: linear-gradient(to right, #e8a690, #e8a690);
   line-height: 48px;
   font-size: 15px;
   font-weight: bold;
@@ -2950,15 +3023,45 @@ button:focus {
   text-align: center;
   text-decoration: none;
   font-family: "HurmeGeometricSans3-Bold";
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+  position: relative;
+}
+.h-sign-up span {
+  z-index: 1;
+  position: relative;
+}
+.h-sign-up:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 0;
+  background-image: -o-linear-gradient(left, #e8a690, #5000a6);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: linear-gradient(to right, #e8a690, #5000a6);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border-radius: 31px;
 }
 
-.h-sign-up:hover {
-  background-color: #fff;
+.h-sign-up:hover:before {
+  opacity: 1;
 }
-
+.h-sign-up:hover span {
+  color: #fff;
+}
 nav {
   height: 56px;
   background: #5000a6;
@@ -3712,21 +3815,22 @@ nav a:hover {
   border-radius: 50%;
   height: 26px;
   width: 26px;
-  border: 2px solid #e8a690;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
   position: relative;
   cursor: pointer;
 }
 
 .indicator span {
   content: "";
-  background-color: #ffffff;
+  background-color: #e8a690;
   border-radius: 50%;
-  height: 14px;
-  width: 14px;
+  height: 16px;
+  width: 16px;
   display: block;
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   opacity: 0;
 }
 .indicator.selected span {
@@ -3953,7 +4057,15 @@ header {
 .buy-bitcoin-btn {
   height: 59px;
   border-radius: 30px;
-  background-color: #e8a690;
+  background-image: -o-linear-gradient(left, #e8a690, #e8a690);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#e8a690)
+  );
+  background-image: linear-gradient(to right, #e8a690, #e8a690);
   border: none;
   margin-top: 30px;
   font-size: 16px;
@@ -3963,13 +4075,48 @@ header {
   color: #000000;
   font-family: "HurmeGeometricSans3-SemiBold";
   cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+  position: relative;
 }
 
 .buy-bitcoin-btn:hover {
   background-color: #fff;
+}
+.buy-bitcoin-btn span {
+  z-index: 1;
+  position: relative;
+}
+.buy-bitcoin-btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 0;
+  background-image: -o-linear-gradient(left, #e8a690, #5000a6);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e8a690),
+    to(#5000a6)
+  );
+  background-image: linear-gradient(to right, #e8a690, #5000a6);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border-radius: 31px;
+}
+
+.buy-bitcoin-btn:hover:before {
+  opacity: 1;
+}
+.buy-bitcoin-btn:hover span {
+  color: #fff;
 }
 
 .first-tab-in div img,
@@ -4165,6 +4312,7 @@ footer {
   border: none;
   color: #fff;
   height: 45px;
+  font-family: "HurmeGeometricSans3-Bold";
   background-image: -o-linear-gradient(right, #dd9b8f, #5000a6);
   background-image: -webkit-gradient(
     linear,
@@ -4270,7 +4418,9 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
 }
-
+.footer-responsive-icon {
+  display: none;
+}
 #footer-cards img:first-child {
   margin-right: 35px;
 }
