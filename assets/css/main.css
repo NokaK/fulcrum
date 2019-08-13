@@ -657,9 +657,7 @@ body {
   #subscribe-field input {
     margin-right: 0 !important;
   }
-  #footer-pattern {
-    display: none;
-  }
+
 
   #footer-top-l {
     -webkit-box-pack: justify;
@@ -750,7 +748,7 @@ body {
     margin-right: 30px;
   }
   #subscribe-field input {
-    width: 195px !important;
+    width: 190px !important;
   }
   #footer-subscribe {
     width: inherit !important ;
@@ -2530,6 +2528,9 @@ body {
     margin-right: 114px;
     display: block;
   }
+  .h-logo img {
+    height: 50px;
+  }
 
   .h-logo-mobile {
     display: none;
@@ -3054,9 +3055,7 @@ button:focus {
 .h-sign-up:hover:before {
   opacity: 1;
 }
-.h-sign-up:hover span {
-  color: #fff;
-}
+
 nav {
   height: 56px;
   background: #5000a6;
@@ -3859,7 +3858,9 @@ nav a:hover {
   margin-right: 60px;
   width: 47px;
 }
-
+.h-logo img {
+  height: 50px;
+}
 .user-icon {
   position: absolute;
   right: 20px;
@@ -4086,7 +4087,7 @@ header {
 .buy-bitcoin-btn:before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 101%;
   height: 100%;
   left: 0;
   top: 0;
@@ -4109,9 +4110,6 @@ header {
 
 .buy-bitcoin-btn:hover:before {
   opacity: 1;
-}
-.buy-bitcoin-btn:hover span {
-  color: #fff;
 }
 
 .first-tab-in div img,
