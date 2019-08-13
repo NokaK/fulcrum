@@ -240,7 +240,7 @@ body {
     margin: 0 0 30px !important;
   }
   #decoration-img {
-    display: none;
+    display: none !important;
   }
 
   .aboutus-image {
@@ -352,9 +352,6 @@ body {
     display: block;
   }
 
-  #decoration-img {
-    width: 100%;
-  }
 
   .wallet-app-banner {
     margin: 30px 0;
