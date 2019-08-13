@@ -3588,7 +3588,7 @@ nav a:hover {
   top: 0;
   margin: 0;
   right: 0;
-  background-image: url("../images/swipe-arr.svg");
+  /* background-image: url("../images/swipe-arr.svg"); */
   background-size: auto;
   background-position: center;
 }
@@ -4382,7 +4382,16 @@ footer {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-
+.swiper-button-next {
+  background-image: none;
+}
+.swiper-button-next img {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #subscribe-field button:hover:before {
   opacity: 1;
 }
