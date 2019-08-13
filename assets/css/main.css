@@ -651,6 +651,7 @@ body {
     line-height: 48px !important ;
     font-size: 15px !important;
   }
+  
   #subscribe-field input {
     margin-right: 0 !important;
   }
@@ -4213,8 +4214,12 @@ footer {
   justify-content: space-between;
   padding: 30px 0 20px;
   font-size: 14px;
+} 
+#subscribe-field .subscribe-field-form {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 }
-
 #additional-links a {
   color: #999999;
   text-decoration: none;
