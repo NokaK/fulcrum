@@ -352,7 +352,6 @@ body {
     display: block;
   }
 
-
   .wallet-app-banner {
     margin: 30px 0;
     text-align: center;
@@ -651,11 +650,10 @@ body {
     line-height: 48px !important ;
     font-size: 15px !important;
   }
-  
+
   #subscribe-field input {
     margin-right: 0 !important;
   }
-
 
   #footer-top-l {
     -webkit-box-pack: justify;
@@ -746,7 +744,7 @@ body {
     margin-right: 30px;
   }
   #subscribe-field input {
-    width: 190px !important;
+    width: 170px !important;
   }
   #footer-subscribe {
     width: inherit !important ;
@@ -4214,11 +4212,11 @@ footer {
   justify-content: space-between;
   padding: 30px 0 20px;
   font-size: 14px;
-} 
+}
 #subscribe-field .subscribe-field-form {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 #additional-links a {
   color: #999999;
