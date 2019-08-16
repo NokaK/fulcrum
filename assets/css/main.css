@@ -1762,10 +1762,12 @@ body {
     margin-bottom: 35px;
     line-height: 1.09;
     color: #000;
+    position: relative;
+    z-index: 11;
   }
 
   .aboutus-container .aboutus-description {
-    width: 613px;
+    width: 523px;
     margin: 0 0 30px;
     font-size: 18px;
     line-height: 1.6;
@@ -1778,7 +1780,27 @@ body {
     width: 550px;
     display: block;
   }
-
+  /* .about-us-parallax {
+    width: 70% !important;
+    height: 70% !important;
+    right: -30% !important;
+  }
+  .white-bg {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .about-us-parallax #parallax-bg-2 div {
+    width: 440px !important;
+    height: 440px !important;
+  }
+  .about-us-parallax #parallax-bg-1 div {
+    width: 440px !important;
+    height: 440px !important;
+  }
+  .about-us-parallax #bg-1 {
+    top: 155px !important;
+    right: 115px !important;
+  } */
   .currency-container {
     height: 95px;
     position: absolute;
@@ -3456,6 +3478,74 @@ nav a:hover {
   -o-transition-property: opacity, background-image;
   transition-property: opacity, background-image;
 }
+/* parallax */
+.about-us-parallax {
+  right: -80px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  overflow: hidden;
+}
+.white-bg {
+  right: 0;
+  background: url(../images/white-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.about-us-parallax #parallax-bg-1 {
+  position: relative;
+  top: 0;
+}
+.about-us-parallax #parallax-bg-1 div {
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+}
+
+.about-us-parallax #bg-1 {
+  background: url("../images/hand.png");
+  top: 200px;
+  right: -120px;
+}
+
+.about-us-parallax #parallax-bg-2 {
+  position: relative;
+  top: 0;
+}
+
+.about-us-parallax #parallax-bg-2 div {
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+}
+
+.about-us-parallax #bg-2 {
+  top: -83px;
+  left: -100px;
+  background: url("../images/ape.png");
+  height: 50px;
+}
 
 .wallet-applicaiton .content-div {
   -webkit-box-align: center;
@@ -3733,17 +3823,6 @@ nav a:hover {
   object-fit: cover;
   z-index: 2;
 }
-
-/* .slide-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.features-second-slide {
-  top: 100%;
-} */
 
 .change-bg {
   position: relative;
@@ -4515,75 +4594,3 @@ footer * {
 #scrollto-top:hover svg path {
   fill: #fff;
 }
-
-/* parallax */
-.about-us-parallax {
-  right: -80px;
-  background: url(../images/bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 700px;
-  height: 700px;
-  position: absolute;
-  top: 100px;
-  overflow: hidden;
-}
-.white-bg {
-  right: 0;
-  background: url(../images/white-bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 700px;
-  height: 700px;
-  position: absolute;
-  top: 0;
-  overflow: hidden;
-  z-index: 10;
-}
-/* foreground (balloons/landscape)*/
-.about-us-parallax #parallax-bg-1 {
-  position: relative;
-  top: 0;
-}
-.about-us-parallax #parallax-bg-1 div {
-  background-repeat: no-repeat;
-  position: absolute;
-  display: block;
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-  background-size: contain;
-  background-position: center;
-}
-
-.about-us-parallax #bg-1 {
-  background: url("../images/hand.png");
-  top: 200px;
-  right: -120px;
-}
-/* background middle layer*/
-.about-us-parallax #parallax-bg-2 {
-  position: relative;
-  top: 0;
-}
-
-/* middle layer clouds */
-.about-us-parallax #parallax-bg-2 div {
-  background-repeat: no-repeat;
-  position: absolute;
-  display: block;
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-  background-size: contain;
-  background-position: center;
-}
-
-.about-us-parallax #bg-2 {
-  top: -83px;
-  left: -100px;
-  background: url("../images/ape.png");
-  height: 50px;
-}
-
-/*background layer clouds */
