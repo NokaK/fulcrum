@@ -422,23 +422,3 @@ $('a[href^="#"]').on("click", function(e) {
       "swing"
     );
 });
-
-jQuery(document).ready(function() {
-  $(window).scroll(function(e) {
-    parallaxScroll();
-  });
-
-  function parallaxScroll() {
-    if ($(window).scrollTop() < 1050) {
-      var scrolled = $(window).scrollTop();
-      $("#parallax-bg-1").css({
-        left: 0 - scrolled * 0.15 + "px",
-        top: 0 - scrolled * 0.1 + "px"
-      });
-      $("#parallax-bg-2").css({
-        right: 0 - scrolled * 0.15 + "px",
-        bottom: 0 - scrolled * 0.15 + "px"
-      });
-    }
-  }
-});
