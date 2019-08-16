@@ -3139,6 +3139,10 @@ nav a:hover {
   position: absolute;
   right: 0;
   max-width: 50%;
+  height: 700px;
+  max-width: 50%;
+  width: 800px;
+  object-fit: cover;
 }
 
 .buy-sell-container {
@@ -4325,10 +4329,22 @@ footer {
   color: #000;
   height: 45px;
   font-family: "HurmeGeometricSans3-Bold";
-  background: rgb(124,48,160);
-  background: -moz-linear-gradient(90deg, rgba(124,48,160,1) 0%, rgba(232,166,144,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(124,48,160,1) 0%, rgba(232,166,144,1) 100%);
-  background: linear-gradient(90deg, rgba(124,48,160,1) 0%, rgba(232,166,144,1) 100%);
+  background: rgb(124, 48, 160);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(124, 48, 160, 1) 0%,
+    rgba(232, 166, 144, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(124, 48, 160, 1) 0%,
+    rgba(232, 166, 144, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(124, 48, 160, 1) 0%,
+    rgba(232, 166, 144, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7c30a0",endColorstr="#e8a690",GradientType=1);
   position: relative;
   overflow: hidden;
@@ -4384,10 +4400,22 @@ footer {
   top: 0;
   opacity: 0;
   z-index: -1;
-  background: rgb(232,166,144);
-  background: -moz-linear-gradient(90deg, rgba(232,166,144,1) 0%, rgba(124,48,160,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(232,166,144,1) 0%, rgba(124,48,160,1) 100%);
-  background: linear-gradient(90deg, rgba(232,166,144,1) 0%, rgba(124,48,160,1) 100%);
+  background: rgb(232, 166, 144);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(232, 166, 144, 1) 0%,
+    rgba(124, 48, 160, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(232, 166, 144, 1) 0%,
+    rgba(124, 48, 160, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(232, 166, 144, 1) 0%,
+    rgba(124, 48, 160, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8a690",endColorstr="#7c30a0",GradientType=1);
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -4487,3 +4515,76 @@ footer * {
 #scrollto-top:hover svg path {
   fill: #fff;
 }
+
+/* parallax */
+.about-us-parallax {
+  right: -80px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  overflow: hidden;
+}
+.white-bg {
+  right: 0;
+  background: url(../images/white-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+/* foreground (balloons/landscape)*/
+.about-us-parallax #parallax-bg-1 {
+  position: relative;
+  top: 0;
+  /* overflow: hidden; */
+}
+.about-us-parallax #parallax-bg-1 div {
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+}
+
+.about-us-parallax #bg-1 {
+  background: url("../images/hand.png");
+  top: 200px;
+  right: -120px;
+}
+/* background middle layer*/
+.about-us-parallax #parallax-bg-2 {
+  position: relative;
+  top: 0;
+}
+
+/* middle layer clouds */
+.about-us-parallax #parallax-bg-2 div {
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+}
+
+.about-us-parallax #bg-2 {
+  top: -83px;
+  left: -100px;
+  background: url("../images/ape.png");
+  height: 50px;
+}
+
+/*background layer clouds */
