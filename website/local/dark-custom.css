@@ -304,17 +304,17 @@ body.dark:before {
 .dark .container .sub-nav-row__item--selected:focus,
 .dark .container .sub-nav-row__item.sub-nav-row__item--selected:hover {
   border-radius: 24px;
-  background: rgb(124, 48, 160);
+  background: rgb(124, 48, 160) !important;
   background: -moz-linear-gradient(
     90deg,
     rgba(124, 48, 160, 1) 0%,
     rgba(232, 166, 144, 1) 100%
-  );
+  ) !important;
   background: -webkit-linear-gradient(
     90deg,
     rgba(124, 48, 160, 1) 0%,
     rgba(232, 166, 144, 1) 100%
-  );
+  ) !important;
   background: linear-gradient(
     90deg,
     rgba(124, 48, 160, 1) 0%,

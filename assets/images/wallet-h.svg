@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.705" height="21.993" viewBox="0 0 26.705 21.993">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.491" y1="-0.155" x2="0.509" y2="1.145" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#460a72"/>
+      <stop offset="1" stop-color="#e8a690"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="26.705" height="21.993" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_13" data-name="Path 13" d="M413.74,147.909v-4.958H400.046a6.63,6.63,0,0,0-6.623,6.622v8.75a6.63,6.63,0,0,0,6.623,6.622h20.082V147.922Zm-13.694-2.25h10.986V147.9l-14.513-.029a3.919,3.919,0,0,1,3.527-2.216m0,16.577a3.919,3.919,0,0,1-3.915-3.914v-7.741l21.289.044v4.214h-2.442a1.354,1.354,0,1,0,0,2.708h2.442v4.689Z" transform="translate(-393.423 -142.951)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="wallet" opacity="0.99">
+    <g id="Group_49" data-name="Group 49" clip-path="url(#clip-path)">
+      <g id="Group_48" data-name="Group 48">
+        <g id="Group_47" data-name="Group 47" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_38" data-name="Rectangle 38" width="22.308" height="26.964" transform="matrix(0.012, -1, 1, 0.012, -0.261, 21.99)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
