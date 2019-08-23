@@ -214,8 +214,23 @@
 }
 
 .ap-button__btn--general:hover {
-    background: var(--general__bg-color--hover)
-}
+    background: rgb(124, 48, 160);
+    background: -moz-linear-gradient(
+        90deg,
+        rgba(124, 48, 160, 1) 0%,
+        rgba(232, 166, 144, 1) 100%
+        );
+            background: -webkit-linear-gradient(
+        90deg,
+        rgba(124, 48, 160, 1) 0%,
+        rgba(232, 166, 144, 1) 100%
+        );
+            background: linear-gradient(
+        90deg,
+        rgba(124, 48, 160, 1) 0%,
+        rgba(232, 166, 144, 1) 100%
+        )
+        }
 
 .ap-button__btn--general:focus {
     background: var(--general__bg-color--focus);
@@ -3889,5 +3904,14 @@ html {
 
 .standalone-layout__wrapper {
     background: url('../../images/BG.svg') !important;
+    background-position: center!important;
+}
+@media screen and  (max-width:768px){
+    .standalone-layout__wrapper{
+        justify-content: center;
+        -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+        justify-content: center;
+    }
 }
 /*# sourceMappingURL=main.2d5d8f3c.css.map*/

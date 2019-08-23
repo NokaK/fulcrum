@@ -429,15 +429,15 @@ jQuery(document).ready(function() {
   });
 
   function parallaxScroll() {
-    if ($(window).scrollTop() < 1050) {
+    if ($(window).scrollTop() < 500) {
       var scrolled = $(window).scrollTop();
       $("#parallax-bg-1").css({
-        left: 0 - scrolled * 0.15 + "px",
+        // left: 0 - scrolled * 0.05 + "px",
         top: 0 - scrolled * 0.1 + "px"
       });
       $("#parallax-bg-2").css({
-        right: 0 - scrolled * 0.15 + "px",
-        bottom: 0 - scrolled * 0.15 + "px"
+        // right: 0 - scrolled * 0.05 + "px",
+        bottom: 0 - scrolled * 0.1 + "px"
       });
     }
   }
